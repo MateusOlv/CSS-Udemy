@@ -1,0 +1,25 @@
+#Menu{
+    color: cadetblue;
+    background-color: rgb(173, 167, 144);
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 875px;
+    padding: 15px;
+  
+}
+
+.conteudo{
+    background-color: aliceblue;
+    padding: 10px;
+    text-align: justify;
+    width: 885px;
+}
+
+body{
+    background-color: #d2d2c1;
+    background-image: url(Imagens/fundo.png);
+}
+
+h1{
+    font-size: 20px;
+}
