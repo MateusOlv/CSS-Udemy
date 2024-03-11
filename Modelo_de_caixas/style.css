@@ -1,0 +1,15 @@
+.conteudo{
+    border: 2px solid red;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    width: 150px;
+}
+
+.conteudo1{
+    border: 2px solid rgb(19, 15, 224);
+    margin-top: 5px;
+    padding: 20px;
+    width: 150px;
+}
