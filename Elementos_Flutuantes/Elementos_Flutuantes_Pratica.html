@@ -5,17 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elementos Flutuantes</title>
     <style type="text/css">    
+        body{
+            background-color: #f4f4f4;
+        }
+
         #principal{
             margin: 5px;
             width: 920px;
-            border: 2px solid red;
         }
 
         .noticias{
-            margin: 5px;
+            margin: 10px;
+            margin-left: 16px;
+            padding: 5px;
             float: left;
             width: 250px;
-            background-color: rgb(181, 181, 216);
+            background-color: rgba(208, 208, 241, 0.692);
+        }
+
+        .fotos{
+            width: 265px;
+            margin: 7px;
+            padding: 5px;
+            background-color: rgb(255, 255, 255);
+            float: left;
         }
 
         .clear{
@@ -26,22 +39,54 @@
 </head>
 <body>
     <div id="principal">
-        <div class="noticias">
-            <h1>Lorem ipsum dolor sit 1</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eos magni maiores veniam vitae ab, aspernatur voluptatem, laborum quo porro ipsam nostrum est enim excepturi eveniet accusantium maxime ex fugiat.</p>
-            <a href="">Veja mais</a>
+        <div>
+            <div class="noticias">
+                <h1>Lorem ipsum dolor sit 1</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eos magni maiores veniam vitae ab, aspernatur voluptatem, laborum quo porro ipsam nostrum est enim excepturi eveniet accusantium maxime ex fugiat.</p>
+                <a href="">Veja mais</a>
+            </div>
+            <div class="noticias">
+                <h1>Lorem ipsum dolor sit 2</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eos magni maiores veniam vitae ab, aspernatur voluptatem, laborum quo porro ipsam nostrum est enim excepturi eveniet accusantium maxime ex fugiat.</p>
+                <a href="">Veja mais</a>
+            </div>
+            <div class="noticias">
+                <h1>Lorem ipsum dolor sit 3</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eos magni maiores veniam vitae ab, aspernatur voluptatem, laborum quo porro ipsam nostrum est enim excepturi eveniet accusantium maxime ex fugiat.</p>
+                <a href="">Veja mais</a>
+            </div>      
+        </div> <!--Fim das notícias-->
+
+        <div>
+            <div class="fotos">
+                <img src="imagens/imagem1.png" alt="">
+                <p>Resumo</p>
+            </div>
+
+            <div class="fotos">
+                <img src="imagens/imagem2.png" alt="">
+                <p>Resumo</p>
+            </div>
+
+            <div class="fotos">
+                <img src="imagens/imagem3.png" alt="">
+                <p>Resumo</p>
+            </div>
+
+            <div class="fotos">
+                <img src="imagens/imagem4.png" alt="">
+                <p>Resumo</p>
+            </div>
+
+            <div class="fotos">
+                <img src="imagens/imagem5.png" alt="">
+                <p>Resumo</p>
+            </div>
+
         </div>
-        <div class="noticias">
-            <h1>Lorem ipsum dolor sit 2</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eos magni maiores veniam vitae ab, aspernatur voluptatem, laborum quo porro ipsam nostrum est enim excepturi eveniet accusantium maxime ex fugiat.</p>
-            <a href="">Veja mais</a>
-        </div>
-        <div class="noticias">
-            <h1>Lorem ipsum dolor sit 3</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eos magni maiores veniam vitae ab, aspernatur voluptatem, laborum quo porro ipsam nostrum est enim excepturi eveniet accusantium maxime ex fugiat.</p>
-            <a href="">Veja mais</a>
-        </div>
-        <div class="clear"></div>
-    </div>
+
+        <div class="clear"></div> 
+
+    </div> <!--Fim do conteúdo-->
 </body>
 </html>
