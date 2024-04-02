@@ -20,6 +20,37 @@ body{
     padding: 10px;
 }
 
+#area-conteudo{
+    width: 920px;
+    margin: 0 auto;
+}
+
+#area-postagens{
+    float: left;
+    width: 660px;
+}
+
+#area-lateral{
+    float:right;
+    width: 240px;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffff;
+}
+
+
+
+#area-rodape{
+    clear:both;
+    text-align: center;
+    background-color: #ccc;
+    padding: 15px;
+}
+
+
 /* Formatações Gerais */
 h1{
     color: #4e4e4e;
