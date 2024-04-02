@@ -23,6 +23,7 @@ body{
 #area-conteudo{
     width: 920px;
     margin: 0 auto;
+    padding: 20px;
 }
 
 #area-postagens{
@@ -41,7 +42,17 @@ body{
     background-color: #ffff;
 }
 
+.conteudo-lateral{
+    background-color: #ffff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
 
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
+}
 
 #area-rodape{
     clear:both;
@@ -57,8 +68,26 @@ h1{
     font-size: 2.5em;
 }
 
+h2{
+    color: #f7b600;
+}
+
+h3{
+    color: #565656;
+    background-color: #ccc;
+    padding: 5px;
+}
+
 .white{
     color: white;
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #d4d4d4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
 }
 
 a{
@@ -66,11 +95,20 @@ a{
 }
 
 a:link, a:visited{
+    color: #f7b600;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#area-menu a:link, #area-menu a:visited{
     color: #ffff;
     padding: 8px 12px;
 }
 
-a:hover{
+#area-menu a:hover{
     color: #f7b600;
     background-color: #ffff;
+    text-decoration: none;
 }
