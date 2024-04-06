@@ -1,0 +1,24 @@
+body{
+    font-size: 18px;
+    color: cornflowerblue;
+}
+
+#pagina p{
+    color: green !important;
+}
+
+#pagina p{
+    color: red;
+}
+
+h1{
+    color: pink;
+}
+
+h1.vermelho{
+    color: red;
+}
+
+h1#amarelo{
+    color: yellow;
+}
