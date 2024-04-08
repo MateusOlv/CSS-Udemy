@@ -12,10 +12,20 @@ ul a{
     text-decoration: none;
     text-indent: 40px;
     line-height: 40px;
-    background: url(../Imagens/menu.png) left bottom;
+    background: #f7b600 url(../Imagens/menu.png) left bottom;
 }
 
 ul a:hover{
     background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+#home #menu-lateral .home a,
+#noticias #menu-lateral .noticias a,
+#sobre #menu-lateral .sobre a,
+#contatos #menu-lateral .contatos a{
+    background-position: right bottom;
+    background-color: #f99200;
     color: #fff;
 }
