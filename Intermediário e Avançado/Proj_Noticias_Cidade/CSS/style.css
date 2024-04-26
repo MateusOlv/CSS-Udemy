@@ -195,7 +195,40 @@ h3{
 
 .entrevista h3{
     background: #de003e;
-} 
+}
+
+/* Formatando Lista de Notícias */
+
+#lista-noticias li{ /*Formatando direto no li, pois a ul já está com formatação*/
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+
+#lista-noticias li a img{ 
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias li a{ 
+    text-decoration: none;
+}
+
+#lista-noticias li a h3{ 
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;
+}
+
+#lista-noticias li a p{ 
+    text-decoration: none;
+    font-size: 0.7em;
+}
+
+#lista-noticias li:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
 
 /* Configuração do Rodapé*/
 
